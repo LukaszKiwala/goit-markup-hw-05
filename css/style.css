@@ -393,9 +393,11 @@ header {
   gap: 30px;
 }
 
-.social-icons-product-designer {
+.social-icons-product-designer { 
+  gap:10px;
+
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: var(--color-white);
   margin-top: 16px;
@@ -406,8 +408,9 @@ header {
 }
 
 .social-icons-frontend-developer {
+  gap:10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: var(--color-white);
   transition: background-color var(--transition-duration) var(--cubic-bezier),
@@ -415,8 +418,9 @@ header {
   will-change: background-color, fill;
 }
 .social-icons-marketing {
+  gap:10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: var(--color-white);
   transition: background-color var(--transition-duration) var(--cubic-bezier),
@@ -424,8 +428,9 @@ header {
   will-change: background-color, fill;
 }
 .social-icons-ui-designer {
+  gap:10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: var(--color-white);
   transition: background-color var(--transition-duration) var(--cubic-bezier),
@@ -443,6 +448,9 @@ header {
   align-items: center;
   padding: 12px;
   border-radius: 50%;
+  transition: background-color var(--transition-duration) var(--cubic-bezier),
+    fill var(--transition-duration) var(--cubic-bezier);
+  will-change: background-color, fill;
 }
 .icon-instagram-2:hover,
 .icon-facebook-1:hover,
@@ -517,8 +525,8 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
   gap: 30px;
+  border-radius: 4px;
 }
 .icon-client-1,
 .icon-client-2,
@@ -532,6 +540,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 4px;
   transition: background-color var(--transition-duration) var(--cubic-bezier),
     fill var(--transition-duration) var(--cubic-bezier);
   will-change: background-color, fill;
@@ -627,7 +636,7 @@ header {
   margin-bottom: 20px;
 }
 .footer-icon {
-  background-color: var(--color-grey);
+  background-color: rgba(255 255 255 / 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
